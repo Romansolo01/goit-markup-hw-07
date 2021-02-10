@@ -55,14 +55,14 @@
     padding-bottom: 32px;
     padding-top: 32px;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    transition: var(--transition);
+    transition: $transition;
   }
 }
 
@@ -76,8 +76,8 @@
     width: 68px;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
-    transition: var(--transition);
+    background-color: $accent-color;
+    transition: $transition;
   }
 
   &:hover::before,
@@ -90,7 +90,7 @@
   &:hover,
   &:active,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -101,7 +101,7 @@
   padding-bottom: 32px;
   padding-top: 32px;
 
-  color: var(--accent-color);
+  color: $accent-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -112,10 +112,9 @@
     display: inline-block;
     position: absolute;
     bottom: 0;
-    content: " ";
     width: 78px;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
