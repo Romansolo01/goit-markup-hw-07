@@ -35,7 +35,7 @@
   color: $footer-email;
 
   &:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     outline: none;
   }
 }
