@@ -1003,7 +1003,7 @@ body {
 }
 
 .flex-elements:nth-child(n + 7) {
-  margin-bottom: 0;
+  margin-bottom: 94px;
 }
 
 .flex-elements:hover, .flex-elements:active, .flex-elements:focus {
